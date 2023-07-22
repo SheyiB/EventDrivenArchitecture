@@ -8,7 +8,7 @@ export class EventHandlers{
         this.eventEmitter = eventEmitter;
     }
 
-    routeEventHandlers() {
+    registerRouteEventHandlers() {
         console.log('Events FiredUp')
 
         this.eventEmitter.on('routeAccess', (route) => {
